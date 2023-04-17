@@ -45,6 +45,7 @@ function createPromise(position, delay, step) {
         reject({ position, sum });
       }
     }, timer);
+
     timer += step;
   });
 }
